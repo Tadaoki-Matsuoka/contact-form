@@ -1,5 +1,5 @@
 <?php $this->setLayoutVar('title', '入力') ?>
-<h2></h2>
+<h2>入力画面</h2>
 <form action="<?php echo $base_url; ?>/form/confirm" method="post">
   <?php if(isset($errors) && count($errors) > 0): ?>
     <?php echo $this->render('errors', ['errors' => $errors]); ?>
